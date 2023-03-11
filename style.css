@@ -167,7 +167,7 @@ header {
 
 /* ! main start */
 .main-section {
-  margin: 15px 10% 40px 10%;
+  margin: 15px 14% 40px 14%;
 }
 
 .section-row {
@@ -178,12 +178,12 @@ header {
 .left {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 45px;
   padding-top: 15px;
 }
 
 .left h1 {
-  font-size: 76px;
+  font-size: 78px;
 }
 
 .left p {
@@ -255,9 +255,14 @@ header {
 /* ! footer end */
 
 /*! responsive */
+@media (max-width: 1430px) {
+  .left h1 {
+    font-size: 68px;
+  }
+}
 @media (max-width: 1245px) {
   .left h1 {
-    font-size: 50px;
+    font-size: 66px;
   }
 }
 
