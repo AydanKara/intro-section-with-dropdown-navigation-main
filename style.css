@@ -183,7 +183,7 @@ header {
 }
 
 .left p {
-  font-size: 20px;
+  font-size: 18px;
   color: hsl(0, 0%, 41%);
 }
 
@@ -251,13 +251,18 @@ header {
 /* ! footer end */
 
 /*! responsive */
+@media (max-width: 1245px) {
+  .left h1 {
+    font-size: 50px;
+  }
+}
 @media (max-width: 1199px) {
   .left h1 {
     font-size: 58px;
   }
 
   .left p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -268,6 +273,12 @@ header {
 }
 
 @media (max-width: 768px) {
+  .main-section {
+    margin: 0 13% 20px 13%
+  }
+  .header-row {
+    height: 70px;
+}
   .navigation {
     display: none;
   }
@@ -287,10 +298,22 @@ header {
   .section-col {
     flex-basis: 100%;
   }
+  .section-col .hero-img .hero {
+    display: none;
+  }
 
+  .mobile-img {
+    width: 100%;
+    height: 284px;
+    background-image: url(./images/image-hero-mobile.png);
+    background-position: center;
+    background-size: contain;
+  }
   .left {
     justify-content: center;
     align-items: center;
+    gap: 35px;
+    padding-top: 0;
   }
 
   .left h1 {
@@ -304,6 +327,12 @@ header {
 
   .section-clients {
     gap: 60px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-top: 20px;
+    font-size: 8px;
   }
 }
 
@@ -349,10 +378,12 @@ header {
 
   .footer {
     margin-top: 20px;
-    font-size: 8px;
+    font-size: 10px;
+    flex-direction: column;
+    gap: 8px;
   }
 
   .footer .icons i {
-    font-size: 8px;
+    font-size: 14px;
   }
 }
