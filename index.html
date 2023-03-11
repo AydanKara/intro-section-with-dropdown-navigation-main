@@ -20,8 +20,49 @@
           <div class="header-logo box">
             <img src="./images/logo.svg" alt="logo">
           </div>
-          <div class="mobil-menu-btn">
+          <div class="mobil-menu-btn" id="open-btn">
             <img src="./images/icon-menu.svg" alt="menu">
+          </div>
+          
+          <div class="header-mobile-menu" id="sidebar">
+            <div class="close-menu-btn" id="close-btn">
+              <img src="./images/icon-close-menu.svg" alt="close">
+            </div>
+            <div class="mobil-sidebar">
+              <div class="mobile-nav">
+                <nav class="mobile-navigation">
+                  <ul class="mobile-menu-list">
+                    <li class="mobile-menu-list-item"><a href="#">Features <img class="rotate"
+                          src="./images/icon-arrow-down.svg" alt=""></a>
+                      <div class="mobile-menu-dropdown-wrapper">
+                        <ul class="mobile-dropdown-content">
+                          <li><img src="./images/icon-todo.svg" alt="#"><a href="#">Todo List</a></li>
+                          <li><img src="./images/icon-calendar.svg" alt="#"><a href="#">Calendar</a></li>
+                          <li><img src="./images/icon-reminders.svg" alt="#"><a href="#">Reminders</a></li>
+                          <li><img src="./images/icon-planning.svg" alt="#"><a href="#">Planning</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="mobile-menu-list-item"><a href="#">Company <img class="rotate"
+                          src="./images/icon-arrow-down.svg" alt=""></a>
+                      <div class="mobile-menu-dropdown-wrapper2">
+                        <ul class="mobile-dropdown-content">
+                          <li><a href="#">History</a></li>
+                          <li><a href="#">Our Team</a></li>
+                          <li><a href="#">Blog</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="mobile-menu-list-item"><a href="#">Careers</a></li>
+                    <li class="mobile-menu-list-item"><a href="#">About</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="mobile-header-login">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="register">Register</a>
+              </div>
+            </div>
           </div>
           <div class="header-nav box">
             <nav class="navigation">
@@ -105,5 +146,7 @@
     </div>
   </footer>
 </body>
+
+<script src="./script.js"></script>
 
 </html>
