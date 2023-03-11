@@ -308,8 +308,11 @@ header {
 }
 
 @media (max-width: 576px) {
+  .header-container {
+    margin: 0 5%;
+}
   .mobil-menu-btn {
-    margin-left: 67%;
+    margin-left: 65%;
   }
   .main-section {
     margin: 5px 1% 0px 1%;
