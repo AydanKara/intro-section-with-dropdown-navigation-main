@@ -173,13 +173,14 @@ header {
 .section-row {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .left {
   display: flex;
   flex-direction: column;
-  gap: 45px;
-  padding-top: 15px;
+  justify-content: space-between;
+  height: 537px;
 }
 
 .left h1 {
@@ -211,7 +212,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
 }
 
 .section-col {
@@ -219,13 +219,13 @@ header {
 }
 
 .section-col .hero-img {
-  max-width: 400px;
+  width: 400px;
   margin-left: auto;
 }
 
 .section-col .hero-img .hero {
   width: 100%;
-  
+
   background-position: center;
   background-size: cover;
 }
@@ -234,7 +234,7 @@ header {
 
 /* ! footer start */
 .footer {
-  margin-top: 60px;
+  margin-top: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,6 +260,7 @@ header {
     font-size: 68px;
   }
 }
+
 @media (max-width: 1245px) {
   .left h1 {
     font-size: 66px;
@@ -267,6 +268,10 @@ header {
 }
 
 @media (max-width: 1199px) {
+  .main-section {
+    margin: 15px 11% 40px 11%;
+  }
+
   .left h1 {
     font-size: 58px;
   }
@@ -284,7 +289,7 @@ header {
 
 @media (max-width: 768px) {
   .main-section {
-    margin: 0 13% 20px 13%
+    margin: 0 15% 20px 15%
   }
 
   .header-row {
@@ -412,8 +417,8 @@ header {
   }
 
   .mobile-img {
-    width: 100%;
-    height: 284px;
+    width: 84%;
+    height: 100%;
     background-image: url(./images/image-hero-mobile.png);
     background-position: center;
     background-size: contain;
