@@ -225,7 +225,7 @@ header {
 
 .section-col .hero-img .hero {
   width: 100%;
-  height: calc(100vh - (90px + 115px));
+  
   background-position: center;
   background-size: cover;
 }
