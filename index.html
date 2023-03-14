@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
 
@@ -14,7 +15,7 @@
   <!--! header start -->
   <header>
     <div class="header-row">
-      <div class="header-container">
+      <div class="header-container" data-aos="fade-down">
         <div class="header-wrapper">
           <div class="header-logo box">
             <img src="./images/logo.svg" alt="logo">
@@ -105,7 +106,7 @@
   <section class="main-section">
     <div class="section-row">
       <div class="section-col">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <div class="mobile-img"></div>
           <h1>Make remote work</h1>
           <p>Get your team
@@ -121,7 +122,7 @@
         </div>
       </div>
       <div class="section-col">
-        <div class="hero-img">
+        <div class="hero-img" data-aos="fade-left">
           <img class="hero" src="./images/image-hero-desktop.png" alt="hero">
         </div>
       </div>
@@ -146,6 +147,12 @@
   <!--! footer end -->
 </body>
 
+
+<script src="./function.js"></script>
 <script src="./script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </html>
